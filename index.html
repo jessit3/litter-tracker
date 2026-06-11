@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Litter Tracker</title>
+
+  <!-- PWA manifest -->
+  <link rel="manifest" href="manifest.json">
+
+  <!-- iOS home screen icon & behaviour -->
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/icon-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Litter Tracker">
+
+  <!-- Theme colour -->
+  <meta name="theme-color" content="#16A34A">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/icon-32.png">
+
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #F0FDF4;
+    }
+    .wrap {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 24px;
+      box-sizing: border-box;
+    }
+    img {
+      width: 96px;
+      height: 96px;
+      border-radius: 22%;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+      margin-bottom: 16px;
+    }
+    h1 {
+      color: #166534;
+      font-size: 20px;
+      margin: 0 0 8px;
+    }
+    p {
+      color: #6b7280;
+      font-size: 14px;
+      margin: 0;
+    }
+    a.button {
+      margin-top: 28px;
+      background: #16A34A;
+      color: #fff;
+      font-weight: 700;
+      font-size: 16px;
+      padding: 14px 32px;
+      border-radius: 999px;
+      text-decoration: none;
+      box-shadow: 0 4px 12px rgba(22,163,74,0.3);
+    }
+    a.fallback {
+      margin-top: 16px;
+      color: #6b7280;
+      font-weight: 500;
+      text-decoration: underline;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <img src="icons/icon-192.png" alt="Litter Tracker">
+    <h1>Litter Tracker</h1>
+    <p>Ready to log your pickup?</p>
+    <a class="button" href="https://go.libraryofwings.com/litter-impact-collection-dashboard">
+      Open Tracker
+    </a>
+  </div>
+</body>
+</html>
